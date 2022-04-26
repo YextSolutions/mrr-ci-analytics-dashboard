@@ -1,0 +1,25 @@
+{
+    "$id": "mrr_yextManagedReviewsCount",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Yext Managed Reviews",
+    "description": "Yext MRR",
+    "query": {
+      "metrics": [
+        "yext/NEW_REVIEWS"
+      ],
+      "dimensions": [
+        "yext/PARTNERS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "MONTHS_12"
+        }
+      ]
+    },
+    "display": {
+      "hero": {
+        "aggregation": "SUM"
+      }
+    }
+  }
