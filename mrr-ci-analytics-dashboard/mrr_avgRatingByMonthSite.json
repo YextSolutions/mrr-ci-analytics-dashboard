@@ -1,0 +1,34 @@
+{
+    "$id": "mrr_avgRatingByMonthSite",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Average Rating by Month and Site",
+    "description": "Average Rating by Month and Site",
+    "query": {
+      "metrics": [
+        "yext/AVERAGE_RATING"
+      ],
+      "dimensions": [
+        "yext/MONTHS",
+        "yext/PARTNERS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "MONTHS_12"
+        },
+        {
+          "filter": "yext/partners",
+          "in": [
+            "715,713,558",
+            "439,588,792",
+            "559"
+          ]
+        }
+      ]
+    },
+    "display": {
+      "line": {
+        "showLabels": true
+      }
+    }
+  }

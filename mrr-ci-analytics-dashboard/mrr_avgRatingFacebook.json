@@ -1,0 +1,28 @@
+{
+    "$id": "mrr_avgRatingFacebook",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Facebook Average Rating",
+    "description": "Facebook Average Rating",
+    "query": {
+      "metrics": [
+        "yext/AVERAGE_RATING"
+      ],
+      "dimensions": [
+        "yext/PARTNERS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/partners",
+          "in": [
+            "715,713,558",
+            "439,588,792"
+          ]
+        }
+      ]
+    },
+    "display": {
+      "bar": {
+        "showLabels": true
+      }
+    }
+  }
