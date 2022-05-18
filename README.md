@@ -33,6 +33,7 @@ This app is to be used internally by the Managed Review Response team. Designed 
 
 # Requirements
 - Client must have a Managed Review Response license 
+- Client must have a Competitive Intelligence license 
 
 
 All reports and dashboards will be blank for new clients without any data.
