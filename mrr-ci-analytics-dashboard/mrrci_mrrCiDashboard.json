@@ -4,6 +4,13 @@
   "name": "Managed Review Response",
   "insights": [
     {
+      "insight": "mrrci_yextManagedReviewsCount",
+      "x": 4,
+      "y": 2,
+      "width": 2,
+      "height": 1
+    },
+    {
       "insight": "REVIEWS-MAP",
       "x": 0,
       "y": 0,
@@ -29,13 +36,6 @@
       "x": 0,
       "y": 2,
       "width": 4,
-      "height": 1
-    },
-    {
-      "insight": "mrrci_yextManagedReviewsCount",
-      "x": 4,
-      "y": 2,
-      "width": 2,
       "height": 1
     },
     {
